@@ -182,6 +182,7 @@ int main() {
 		//printando as comparações
 		printf("\nComparação de cartas\n");
         
+		//população
         printf("População carta 1: %d\n",Populacao1);
         printf("População carta 2: %d\n",Populacao2);
         if(Populacao1 > Populacao2){
@@ -190,6 +191,8 @@ int main() {
             printf("População da carta 2 é maior\n");
         }
 
+
+		//Área em km²	
         printf("Area em km² carta 1 %d\n", AreaEmkm1);
         printf("Area em km² carta 2 %d\n", AreaEmkm2);
         if (AreaEmkm1 > AreaEmkm2){
@@ -198,6 +201,8 @@ int main() {
             printf ("A area em km² da carta 2 é maior\n");
         }
 
+
+		//PIB
         printf("O PIB da carta 1 é %d\n", PIB1);
         printf("O PIB da carta 2 é %d\n", PIB2);
 
@@ -206,7 +211,9 @@ int main() {
         }else {
             printf("O PIB da carta 2 é maior\n");
         }
-		
+
+
+		//Pontos Turísticos
         printf("Quantidade de pontos turísticos carta 1 %d\n", PontoT1);
         printf("Quantidade de pontos turísticos carta 2 %d\n", PontoT2);
 
@@ -216,7 +223,8 @@ int main() {
             printf("A carta 2 tem mais pontos Turísticos\n");
         }
 		
-		
+
+		//Densidade populacional
         printf("Densidade populacional da carta 1: %d\n", DensidadePopulacional1);
         printf("Densidade populacional da carta 2: %d\n", DensidadePopulacional2);
 
@@ -227,6 +235,7 @@ int main() {
         }
 		
 		
+		//PIB per Capita 
         printf("PIB per Capita da carta 1: %d\n", PibPerCapita1);
         printf("PIB per Capita da carta 2: %d\n", PibPerCapita2);
 
@@ -236,7 +245,7 @@ int main() {
             printf("A carta 2 tem mais PIB per Capita\n");
         }
 
-
+		//Super Poder
         printf("Super poder da carta 1: %d\n", superPoder1);
         printf("Super poder da carta 2: %d\n", superPoder2);
 
@@ -249,6 +258,7 @@ int main() {
         //printando a carta vencedora baseada na população
 
         printf("Comparação de cartas (Atributo: População:\n");
+
         printf("Carta 1 %s: %d\n",NomeCidade1,Populacao1);
         printf("Carta 2 %s: %d\n",NomeCidade1,Populacao2);
         if(Populacao1 > Populacao2){
