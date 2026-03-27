@@ -248,13 +248,13 @@ int main() {
 
         //printando a carta vencedora baseada na população
 
-        printf("Comparação de cartas (Atributo: População:");
-        printf("Carta 1 %s: %d",NomeCidade1,Populacao1);
-        printf("Carta 2 %s: %d",NomeCidade1,Populacao2);
+        printf("Comparação de cartas (Atributo: População:\n");
+        printf("Carta 1 %s: %d\n",NomeCidade1,Populacao1);
+        printf("Carta 2 %s: %d\n",NomeCidade1,Populacao2);
         if(Populacao1 > Populacao2){
-            printf("A carta %s é a vencedora! ",NomeCidade1);
+            printf("A carta %s é a vencedora!\n ",NomeCidade1);
         }else{
-            printf("A carta %s é a vencedora!" NomeCidade2);
+            printf("A carta %s é a vencedora!\n" ,NomeCidade2);
         }
 
 return 0;
