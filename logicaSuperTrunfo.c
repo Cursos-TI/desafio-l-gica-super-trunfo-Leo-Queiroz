@@ -190,8 +190,7 @@ int main() {
 		printf("3. Pelo PIB\n");
 		printf("4. Por Ponto Turístico\n");
 		printf("5. Por densidade Populacional\n");
-		printf("6. Pela população\n");
-
+		
 		printf("Digite a opção que você deseja(apenas o número):\n");
 		scanf("%d", &escolha);
 
@@ -214,8 +213,8 @@ int main() {
 
 			case 2:
 			//Área em km²	
-				printf("Nome da cidade 1 %s", NomeCidade1);
-				printf("Nome da cidade 2 %s", NomeCidade2);
+				printf("Nome da cidade 1 %s\n", NomeCidade1);
+				printf("Nome da cidade 2 %s\n", NomeCidade2);
 				printf("Area em km² carta 1 %.2f\n", AreaEmkm1);
 				printf("Area em km² carta 2 %.2f\n", AreaEmkm2);
 				if (AreaEmkm1 > AreaEmkm2){
@@ -229,8 +228,8 @@ int main() {
 			break;
 			case 3:
 				//PIB
-				printf("Nome da cidade 1 %s", NomeCidade1);
-				printf("Nome da cidade 2 %s", NomeCidade2);
+				printf("Nome da cidade 1 %s\n", NomeCidade1);
+				printf("Nome da cidade 2 %s\n", NomeCidade2);
 				printf("O PIB da carta 1 é %.2f\n", PIB1);
 				printf("O PIB da carta 2 é %.2f\n", PIB2);
 
@@ -245,8 +244,8 @@ int main() {
 
 			case 4:
 			//Pontos Turísticos
-				printf("Nome da cidade 1 %s", NomeCidade1);
-				printf("Nome da cidade 2 %s", NomeCidade2);
+				printf("Nome da cidade 1 %s\n", NomeCidade1);
+				printf("Nome da cidade 2 %s\n", NomeCidade2);
 				printf("Quantidade de pontos turísticos carta 1 %d\n", PontoT1);
 				printf("Quantidade de pontos turísticos carta 2 %d\n", PontoT2);
 
@@ -261,8 +260,8 @@ int main() {
 
 			case 5:
 				//Densidade populacional
-				printf("Nome da cidade 1 %s", NomeCidade1);
-				printf("Nome da cidade 2 %s", NomeCidade2);
+				printf("Nome da cidade 1 %s\n", NomeCidade1);
+				printf("Nome da cidade 2 %s\n", NomeCidade2);
 				printf("Densidade populacional da carta 1: %.2f\n", DensidadePopulacional1);
 				printf("Densidade populacional da carta 2: %.2f\n", DensidadePopulacional2);
 
